@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. John Smith",
+    "age": 35,
+    "gender": "male",
+    "price": 40,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 124,
+    "description": "Experienced therapist specializing in stress management.",
+    "avatar": "https://i.pravatar.cc/150?img=1"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Jane Doe",
+    "age": 30,
+    "gender": "female",
+    "price": 35,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 100,
+    "description": "Specialized in anxiety and depression treatment.",
+    "avatar": "https://i.pravatar.cc/150?img=2"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Jane Smith",
+    "age": 30,
+    "gender": "male",
+    "price": 35,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 100,
+    "description": "Specialized in anxiety and depression treatment.",
+    "avatar": "https://i.pravatar.cc/150?img=3"
+  },
+  {
+    "id": 4,
+    "name": "Dr. John Doe",
+    "age": 35,
+    "gender": "female",
+    "price": 35,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 100,
+    "description": "Specialized in anxiety and depression treatment.",
+    "avatar": "https://i.pravatar.cc/150?img=4"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Jane Doe",
+    "age": 30,
+    "gender": "male",
+    "price": 35,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 100,
+    "description": "Specialized in anxiety and depression treatment.",
+    "avatar": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "id": 6,
+    "name": "Dr. John Doe",
+    "age": 30,
+    "gender": "male",
+    "price": 35,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 100,
+    "description": "Specialized in anxiety and depression treatment.",
+    "avatar": "https://i.pravatar.cc/150?img=6"
+  },
+  {
+    "id": 7,
+    "name": "Dr. John Doe",
+    "age": 30,
+    "gender": "male",
+    "price": 35,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 100,
+    "description": "Specialized in anxiety and depression treatment.",
+    "avatar": "https://i.pravatar.cc/150?img=7"
+  },
+  {
+    "id": 8,
+    "name": "Dr. John Doe",
+    "age": 30,
+    "gender": "male",
+    "price": 35,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 100,
+    "description": "Specialized in anxiety and depression treatment.",
+    "avatar": "https://i.pravatar.cc/150?img=8"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Jane Doe",
+    "age": 30,
+    "gender": "male",
+    "price": 35,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 100,
+    "description": "Specialized in anxiety and depression treatment.",
+    "avatar": "https://i.pravatar.cc/150?img=9"
+  }
+]
