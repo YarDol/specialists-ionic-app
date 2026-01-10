@@ -1,0 +1,21 @@
+.filters-page-content {
+  padding: 20px;
+  padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  display: flex;
+  flex-direction: column;
+}
+
+.filters-page-divider {
+  height: 1px;
+  background: rgba(33, 33, 33, 0.1);
+  margin: 24px 0;
+}
+
+.filters-page-header {
+  color: var(--ion-text-color);
+  font-family: "Inter Tight", var(--ion-font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  padding: 20px;
+}

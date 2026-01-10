@@ -1,0 +1,44 @@
+.age-range-container {
+  margin-bottom: 32px;
+}
+
+.age-range-title {
+  font-family: "Inter Tight", var(--ion-font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--ion-text-color);
+}
+
+.age-range-display {
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--ion-text-color);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.age-range-slider {
+  --bar-background: rgba(33, 33, 33, 0.1);
+  --bar-background-active: rgba(33, 33, 33, 0.3);
+  --knob-background: #212121;
+  --knob-size: 28px;
+  --bar-height: 4px;
+  --bar-border-radius: 2px;
+  padding: 10px 14px;
+}
+
+.age-range-slider::part(knob) {
+  background: #212121;
+}
+
+.age-range-slider::part(bar) {
+  background: rgba(33, 33, 33, 0.1);
+}
+
+.age-range-slider::part(bar-active) {
+  background: rgba(33, 33, 33, 0.3);
+}

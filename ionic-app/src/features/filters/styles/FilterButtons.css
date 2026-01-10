@@ -1,0 +1,49 @@
+.filter-buttons-container {
+  display: flex;
+  gap: 16px;
+  padding-top: 24px;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  align-items: center;
+}
+
+.filter-clear-button {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.4;
+  color: var(--ion-text-color);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  padding: 16px 0;
+}
+
+.filter-clear-button:active {
+  opacity: 0.7;
+}
+
+.filter-apply-button {
+  flex: 1;
+  padding: 16px 24px;
+  background: #212121;
+  border: none;
+  border-radius: 40px;
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.4;
+  color: white;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition: opacity 0.2s ease;
+}
+
+.filter-apply-button:active {
+  opacity: 0.8;
+}

@@ -1,0 +1,60 @@
+.gender-selector-container {
+  margin-bottom: 32px;
+}
+
+.gender-selector-title {
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.4;
+  color: var(--ion-text-color);
+  margin-bottom: 12px;
+}
+
+.gender-selector-options {
+  display: flex;
+  gap: 12px;
+}
+
+.gender-option {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(33, 33, 33, 0.05);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.gender-option:active {
+  opacity: 0.8;
+}
+
+.gender-option.selected {
+  background: #212121;
+  color: white;
+}
+
+.gender-emoji {
+  font-size: 32px;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.gender-label {
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--ion-text-color);
+}
+
+.gender-option.selected .gender-label {
+  color: white;
+}
