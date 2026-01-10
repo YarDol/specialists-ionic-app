@@ -19,13 +19,12 @@
   color: var(--ion-text-color);
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
 }
 
 .price-range-slider {
-  --bar-background: rgba(33, 33, 33, 0.1);
-  --bar-background-active: rgba(33, 33, 33, 0.3);
-  --knob-background: #212121;
+  --bar-background: var(--ion-border-color);
+  --bar-background-active: var(--ion-border-color);
+  --knob-background: var(--ion-border-color);
   --knob-size: 28px;
   --bar-height: 4px;
   --bar-border-radius: 2px;
@@ -41,5 +40,5 @@
 }
 
 .price-range-slider::part(bar-active) {
-  background: rgba(33, 33, 33, 0.3);
+  background: #212121;
 }

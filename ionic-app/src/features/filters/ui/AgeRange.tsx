@@ -16,7 +16,8 @@ export const AgeRange = ({ value, onChange }: AgeRangeProps) => {
     <div className="age-range-container">
       <div className="age-range-title">Age</div>
       <div className="age-range-display">
-        {value.lower} – {value.upper}+
+        {value.lower} – {value.upper}
+        {value.upper === 65 ? "+" : ""}
       </div>
       <IonRange
         dualKnobs

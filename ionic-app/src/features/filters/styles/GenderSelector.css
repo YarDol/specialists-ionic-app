@@ -3,12 +3,12 @@
 }
 
 .gender-selector-title {
-  font-family: "Inter", var(--ion-font-family);
+  font-family: "Inter Tight", var(--ion-font-family);
   font-weight: 600;
-  font-size: 17px;
-  line-height: 1.4;
+  font-size: 20px;
+  line-height: 140%;
   color: var(--ion-text-color);
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .gender-selector-options {

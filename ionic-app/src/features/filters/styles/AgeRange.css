@@ -8,6 +8,7 @@
   font-size: 20px;
   line-height: 140%;
   color: var(--ion-text-color);
+  margin-bottom: 20px;
 }
 
 .age-range-display {
@@ -18,7 +19,6 @@
   color: var(--ion-text-color);
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
 }
 
 .age-range-slider {
@@ -40,5 +40,5 @@
 }
 
 .age-range-slider::part(bar-active) {
-  background: rgba(33, 33, 33, 0.3);
+  background: #212121;
 }
