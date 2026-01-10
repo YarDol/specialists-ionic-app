@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Specialist } from '../interfaces/specialist.interface';
-import { GetSpecialistsRequestDto } from '../requests/get-specialists.request.dto';
+import { SpecialistDto } from '../dto/specialist.dto';
 
 export class GetSpecialistsResponseDto {
   constructor(items: Specialist[], total: number) {
@@ -9,12 +9,16 @@ export class GetSpecialistsResponseDto {
   }
 
   @ApiProperty({
-    type: [GetSpecialistsRequestDto],
-    description: 'Specialists list',
+    type: [SpecialistDto],
+    description: 'List of specialists',
     isArray: true,
   })
   items: Specialist[];
 
-  @ApiProperty({ type: Number, description: 'Total number of specialists' })
+  @ApiProperty({
+    type: Number,
+    description: 'Total number of specialists matching the filters',
+    example: 75,
+  })
   total: number;
 }

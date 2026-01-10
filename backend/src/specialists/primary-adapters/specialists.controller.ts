@@ -2,22 +2,22 @@ import { Controller, Get, Query } from '@nestjs/common';
 import { GetSpecialistsUseCase } from '../application/usecases/get-specialists.usecase';
 import { GetSpecialistsResponseDto } from '../application/data/responses/get-specialists.response.dto';
 import { GetSpecialistsRequestDto } from '../application/data/requests/get-specialists.request.dto';
-import { ApiOperation, ApiResponse } from '@nestjs/swagger';
+import { ApiOperation, ApiTags, ApiOkResponse } from '@nestjs/swagger';
 
+@ApiTags('Specialists')
 @Controller('specialists')
 export class SpecialistsController {
   constructor(private readonly getSpecialistsUseCase: GetSpecialistsUseCase) {}
 
   @Get()
   @ApiOperation({
-    summary: 'Get specialists',
-    description: 'Get specialists list',
+    summary: 'Get paginated list of specialists',
+    description:
+      'Returns a paginated list of specialists with optional filtering by age, gender, and price range.',
   })
-  @ApiResponse({
-    status: 200,
-    description: 'Specialists list',
+  @ApiOkResponse({
+    description: 'Successfully retrieved specialists list',
     type: GetSpecialistsResponseDto,
-    isArray: true,
   })
   getSpecialists(@Query() query: GetSpecialistsRequestDto) {
     const result = this.getSpecialistsUseCase.execute({
@@ -35,13 +35,22 @@ export class SpecialistsController {
 
   @Get('count')
   @ApiOperation({
-    summary: 'Get specialists count',
-    description: 'Get specialists count',
+    summary: 'Get count of specialists',
+    description:
+      'Returns the total count of specialists matching the provided filters without pagination.',
   })
-  @ApiResponse({
-    status: 200,
-    description: 'Specialists count',
-    type: Number,
+  @ApiOkResponse({
+    description: 'Successfully retrieved specialists count',
+    schema: {
+      type: 'object',
+      properties: {
+        count: {
+          type: 'number',
+          description: 'Total number of specialists matching filters',
+          example: 37,
+        },
+      },
+    },
   })
   getSpecialistsCount(@Query() query: GetSpecialistsRequestDto) {
     const result = this.getSpecialistsUseCase.execute({
