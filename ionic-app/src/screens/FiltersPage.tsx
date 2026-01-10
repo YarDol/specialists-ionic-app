@@ -107,7 +107,7 @@ export const FiltersPage = () => {
       <IonHeader className="filters-page-header">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton defaultHref="/" />
+            <IonBackButton defaultHref="/" text="" />
           </IonButtons>
           <IonTitle>Filters</IonTitle>
         </IonToolbar>
