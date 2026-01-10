@@ -1,6 +1,6 @@
 ion-header.custom-header {
   --background: var(--ion-toolbar-background);
-  border-bottom: 1px solid #00000040;
+  border-bottom: 1px solid var(--ion-border-color);
 }
 
 ion-header.custom-header ion-toolbar.custom-toolbar {

@@ -1,5 +1,6 @@
 import { IonApp, setupIonicReact } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
+import { Route, Switch } from "react-router-dom";
 
 import "@ionic/react/css/core.css";
 
@@ -17,6 +18,7 @@ import "./theme/variables.css";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
 import { TabNavigator } from "./routes/TabNavigator";
+import { FiltersPage } from "./screens/FiltersPage";
 
 setupIonicReact();
 
@@ -24,7 +26,14 @@ const App: React.FC = () => (
   <IonApp>
     <Provider store={store}>
       <IonReactRouter>
-        <TabNavigator />
+        <Switch>
+          <Route path="/filters" exact>
+            <FiltersPage />
+          </Route>
+          <Route path="/">
+            <TabNavigator />
+          </Route>
+        </Switch>
       </IonReactRouter>
     </Provider>
   </IonApp>

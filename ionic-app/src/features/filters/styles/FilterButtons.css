@@ -1,8 +1,6 @@
 .filter-buttons-container {
   display: flex;
   gap: 16px;
-  padding-top: 24px;
-  padding-bottom: env(safe-area-inset-bottom, 0px);
   align-items: center;
 }
 

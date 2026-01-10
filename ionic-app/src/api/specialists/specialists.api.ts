@@ -16,3 +16,13 @@ export const fetchSpecialists = async (
 
   return data;
 };
+
+export const fetchSpecialistsCount = async (
+  filters: Filters
+): Promise<{ count: number }> => {
+  const { data } = await api.get("/specialists/count", {
+    params: filters,
+  });
+
+  return data;
+};

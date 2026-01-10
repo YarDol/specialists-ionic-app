@@ -1,0 +1,232 @@
+.specialist-card {
+  position: relative;
+  padding: 16px;
+  margin-bottom: 16px;
+
+  border-bottom: 1px solid var(--ion-border-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.specialist-card-favorite {
+  background: none;
+  border: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.specialist-card-favorite:active {
+  opacity: 0.7;
+}
+
+.specialist-card-favorite ion-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--ion-text-color);
+}
+
+.specialist-card-content {
+  width: 100%;
+}
+
+.specialist-card-header {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.specialist-card-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.specialist-card-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.specialist-card-name-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.specialist-card-name-row-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.specialist-card-name {
+  font-family: "Inter Tight", var(--ion-font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--ion-text-color);
+}
+
+.specialist-card-flag {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.specialist-card-verified {
+  width: 20px;
+  height: 20px;
+  color: #10b981;
+  flex-shrink: 0;
+}
+
+.specialist-card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(16, 185, 129, 0.1);
+  border-radius: 20px;
+  padding: 4px 8px;
+  width: fit-content;
+}
+
+.specialist-card-badge-icon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.specialist-card-badge-text {
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  color: var(--ion-color-green-500);
+}
+
+.specialist-card-pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.specialist-card-pricing-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
+.specialist-card-price {
+  font-family: "Inter Tight", var(--ion-font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--ion-text-color);
+}
+
+.specialist-card-duration {
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--ion-text-color-step-250);
+}
+
+.specialist-card-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.specialist-card-star {
+  width: 20px;
+  height: 20px;
+  color: var(--ion-text-color);
+}
+
+.specialist-card-rating-value {
+  font-family: "Inter Tight", var(--ion-font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--ion-text-color);
+}
+
+.specialist-card-reviews {
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--ion-text-color-step-250);
+}
+
+.specialist-card-description {
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--ion-text-color);
+}
+
+.specialist-card-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.specialist-card-stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--ion-text-color-step-250);
+}
+
+.specialist-card-stat-icon {
+  width: 16px;
+  height: 16px;
+  color: var(--ion-text-color-step-250);
+}
+
+.specialist-card-slots {
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.specialist-card-slot {
+  padding: 8px 16px;
+  background: rgba(33, 33, 33, 0.05);
+  border: 1px solid rgba(33, 33, 33, 0.1);
+  border-radius: 14px;
+  background: var(--ion-color-white);
+  font-family: "Inter", var(--ion-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--ion-text-color);
+  text-align: center;
+  min-width: fit-content;
+  white-space: nowrap;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.specialist-card-slot:active {
+  background: rgba(33, 33, 33, 0.1);
+  transform: scale(0.98);
+}

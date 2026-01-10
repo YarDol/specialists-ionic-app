@@ -11,7 +11,6 @@ import { SpecialistsPage } from "../screens/SpecialistsPage";
 import { ChatPage } from "../screens/ChatPage";
 import { ProfilePage } from "../screens/ProfilePage";
 import { ListPage } from "../screens/ListPage";
-import { FiltersPage } from "../screens/FiltersPage";
 import "./styles/TabNavigator.css";
 
 export const TabNavigator = () => {
@@ -29,9 +28,6 @@ export const TabNavigator = () => {
         </Route>
         <Route exact path="/profile">
           <ProfilePage />
-        </Route>
-        <Route exact path="/filters">
-          <FiltersPage />
         </Route>
       </IonRouterOutlet>
       <IonTabBar

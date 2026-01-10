@@ -22,6 +22,8 @@ html {
   --ion-tab-bar-color: #21212159;
   --ion-tab-bar-color-selected: #212121;
 
+  --ion-color-green-500: #10b981;
+
   --ion-safe-area-top: env(safe-area-inset-top, 0px);
   --ion-safe-area-bottom: env(safe-area-inset-bottom, 0px);
   --ion-safe-area-left: env(safe-area-inset-left, 0px);

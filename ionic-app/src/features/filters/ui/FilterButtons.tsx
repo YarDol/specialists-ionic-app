@@ -2,28 +2,25 @@ import { useHistory } from "react-router-dom";
 import "../styles/FilterButtons.css";
 
 interface FilterButtonsProps {
-  resultCount?: number;
-  onClear?: () => void;
-  onApply?: () => void;
+  resultCount: number;
+  loading?: boolean;
+  onClear: () => void;
+  onApply: () => void;
 }
 
 export const FilterButtons = ({
-  resultCount = 2345,
+  resultCount,
   onClear,
   onApply,
 }: FilterButtonsProps) => {
   const history = useHistory();
 
   const handleClear = () => {
-    if (onClear) {
-      onClear();
-    }
+    onClear();
   };
 
   const handleApply = () => {
-    if (onApply) {
-      onApply();
-    }
+    onApply();
     history.push("/");
   };
 
@@ -33,7 +30,7 @@ export const FilterButtons = ({
         Clear all
       </button>
       <button className="filter-apply-button" onClick={handleApply}>
-        Show ({resultCount})
+        {`Show (${resultCount.toLocaleString()})`}
       </button>
     </div>
   );
