@@ -1,3 +1,8 @@
+export interface AvailableSlot {
+  label: string;
+  date: string;
+}
+
 export interface Specialist {
   id: number;
   name: string;
@@ -9,4 +14,11 @@ export interface Specialist {
   reviewsCount: number;
   description: string;
   avatar: string;
+  experience: number;
+  clients: number;
+  sessions: number;
+  countryFlag: string;
+  isVerified: boolean;
+  badge: string;
+  availableSlots: AvailableSlot[];
 }

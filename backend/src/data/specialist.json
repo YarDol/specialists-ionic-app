@@ -2,109 +2,2133 @@
   {
     "id": 1,
     "name": "Dr. John Smith",
-    "age": 35,
+    "age": 28,
     "gender": "male",
-    "price": 40,
-    "duration": 30,
-    "rating": 4.8,
-    "reviewsCount": 124,
-    "description": "Experienced therapist specializing in stress management.",
-    "avatar": "https://i.pravatar.cc/150?img=1"
+    "price": 300,
+    "duration": 60,
+    "rating": 4.5,
+    "reviewsCount": 50,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=1",
+    "experience": 2,
+    "clients": 40,
+    "sessions": 150,
+    "countryFlag": "🇺🇸",
+    "isVerified": false,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      },
+      {
+        "label": "June 15, 10:00 AM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Dr. Jane Doe",
-    "age": 30,
+    "age": 29,
     "gender": "female",
-    "price": 35,
+    "price": 400,
     "duration": 30,
-    "rating": 4.7,
-    "reviewsCount": 100,
-    "description": "Specialized in anxiety and depression treatment.",
-    "avatar": "https://i.pravatar.cc/150?img=2"
+    "rating": 4.6,
+    "reviewsCount": 53,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=2",
+    "experience": 3,
+    "clients": 44,
+    "sessions": 160,
+    "countryFlag": "🇨🇦",
+    "isVerified": true,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      },
+      {
+        "label": "June 15, 10:00 AM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
   },
   {
     "id": 3,
-    "name": "Dr. Jane Smith",
+    "name": "Dr. Alex Brown",
     "age": 30,
     "gender": "male",
-    "price": 35,
+    "price": 500,
     "duration": 30,
     "rating": 4.7,
-    "reviewsCount": 100,
-    "description": "Specialized in anxiety and depression treatment.",
-    "avatar": "https://i.pravatar.cc/150?img=3"
+    "reviewsCount": 56,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=3",
+    "experience": 4,
+    "clients": 48,
+    "sessions": 170,
+    "countryFlag": "🇬🇧",
+    "isVerified": true,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      },
+      {
+        "label": "June 15, 10:00 AM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
   },
   {
     "id": 4,
-    "name": "Dr. John Doe",
-    "age": 35,
+    "name": "Dr. Emily Wilson",
+    "age": 31,
     "gender": "female",
-    "price": 35,
-    "duration": 30,
-    "rating": 4.7,
-    "reviewsCount": 100,
-    "description": "Specialized in anxiety and depression treatment.",
-    "avatar": "https://i.pravatar.cc/150?img=4"
+    "price": 600,
+    "duration": 60,
+    "rating": 4.8,
+    "reviewsCount": 59,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=4",
+    "experience": 5,
+    "clients": 52,
+    "sessions": 180,
+    "countryFlag": "🇦🇺",
+    "isVerified": false,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      },
+      {
+        "label": "June 15, 10:00 AM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
   },
   {
     "id": 5,
-    "name": "Dr. Jane Doe",
-    "age": 30,
+    "name": "Dr. Michael Lee",
+    "age": 32,
     "gender": "male",
-    "price": 35,
+    "price": 700,
     "duration": 30,
-    "rating": 4.7,
-    "reviewsCount": 100,
-    "description": "Specialized in anxiety and depression treatment.",
-    "avatar": "https://i.pravatar.cc/150?img=5"
+    "rating": 4.9,
+    "reviewsCount": 62,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=5",
+    "experience": 6,
+    "clients": 56,
+    "sessions": 190,
+    "countryFlag": "🇩🇪",
+    "isVerified": true,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      },
+      {
+        "label": "June 15, 10:00 AM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
   },
   {
     "id": 6,
-    "name": "Dr. John Doe",
-    "age": 30,
-    "gender": "male",
-    "price": 35,
+    "name": "Dr. Sarah Johnson",
+    "age": 33,
+    "gender": "female",
+    "price": 800,
     "duration": 30,
-    "rating": 4.7,
-    "reviewsCount": 100,
-    "description": "Specialized in anxiety and depression treatment.",
-    "avatar": "https://i.pravatar.cc/150?img=6"
+    "rating": 4.5,
+    "reviewsCount": 65,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=6",
+    "experience": 7,
+    "clients": 60,
+    "sessions": 200,
+    "countryFlag": "🇺🇸",
+    "isVerified": true,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      },
+      {
+        "label": "June 15, 10:00 AM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
   },
   {
     "id": 7,
-    "name": "Dr. John Doe",
-    "age": 30,
+    "name": "Dr. David Miller",
+    "age": 34,
     "gender": "male",
-    "price": 35,
-    "duration": 30,
-    "rating": 4.7,
-    "reviewsCount": 100,
-    "description": "Specialized in anxiety and depression treatment.",
-    "avatar": "https://i.pravatar.cc/150?img=7"
+    "price": 900,
+    "duration": 60,
+    "rating": 4.6,
+    "reviewsCount": 68,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=7",
+    "experience": 8,
+    "clients": 64,
+    "sessions": 210,
+    "countryFlag": "🇨🇦",
+    "isVerified": false,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
   },
   {
     "id": 8,
-    "name": "Dr. John Doe",
-    "age": 30,
-    "gender": "male",
-    "price": 35,
+    "name": "Dr. Olivia Davis",
+    "age": 35,
+    "gender": "female",
+    "price": 1000,
     "duration": 30,
     "rating": 4.7,
-    "reviewsCount": 100,
-    "description": "Specialized in anxiety and depression treatment.",
-    "avatar": "https://i.pravatar.cc/150?img=8"
+    "reviewsCount": 71,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=8",
+    "experience": 9,
+    "clients": 68,
+    "sessions": 220,
+    "countryFlag": "🇬🇧",
+    "isVerified": true,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      },
+      {
+        "label": "June 15, 10:00 AM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Dr. Daniel Garcia",
+    "age": 36,
+    "gender": "male",
+    "price": 1200,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 74,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=9",
+    "experience": 10,
+    "clients": 72,
+    "sessions": 230,
+    "countryFlag": "🇦🇺",
+    "isVerified": true,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      },
+      {
+        "label": "June 15, 10:00 AM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
   },
   {
     "id": 10,
-    "name": "Dr. Jane Doe",
-    "age": 30,
+    "name": "Dr. Sophia Martinez",
+    "age": 37,
+    "gender": "female",
+    "price": 1500,
+    "duration": 60,
+    "rating": 4.9,
+    "reviewsCount": 77,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=10",
+    "experience": 11,
+    "clients": 76,
+    "sessions": 240,
+    "countryFlag": "🇩🇪",
+    "isVerified": false,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Dr. John Smith",
+    "age": 38,
     "gender": "male",
-    "price": 35,
+    "price": 1800,
+    "duration": 30,
+    "rating": 4.5,
+    "reviewsCount": 80,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=11",
+    "experience": 12,
+    "clients": 80,
+    "sessions": 250,
+    "countryFlag": "🇺🇸",
+    "isVerified": true,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Dr. Jane Doe",
+    "age": 39,
+    "gender": "female",
+    "price": 2000,
+    "duration": 30,
+    "rating": 4.6,
+    "reviewsCount": 83,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "experience": 13,
+    "clients": 84,
+    "sessions": 260,
+    "countryFlag": "🇨🇦",
+    "isVerified": true,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Dr. Alex Brown",
+    "age": 40,
+    "gender": "male",
+    "price": 2500,
+    "duration": 60,
+    "rating": 4.7,
+    "reviewsCount": 86,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=13",
+    "experience": 2,
+    "clients": 88,
+    "sessions": 270,
+    "countryFlag": "🇬🇧",
+    "isVerified": false,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Dr. Emily Wilson",
+    "age": 41,
+    "gender": "female",
+    "price": 3000,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 89,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=14",
+    "experience": 3,
+    "clients": 92,
+    "sessions": 280,
+    "countryFlag": "🇦🇺",
+    "isVerified": true,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Dr. Michael Lee",
+    "age": 42,
+    "gender": "male",
+    "price": 3500,
+    "duration": 30,
+    "rating": 4.9,
+    "reviewsCount": 92,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=15",
+    "experience": 4,
+    "clients": 96,
+    "sessions": 290,
+    "countryFlag": "🇩🇪",
+    "isVerified": true,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Dr. Sarah Johnson",
+    "age": 28,
+    "gender": "female",
+    "price": 4000,
+    "duration": 60,
+    "rating": 4.5,
+    "reviewsCount": 95,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=16",
+    "experience": 5,
+    "clients": 100,
+    "sessions": 300,
+    "countryFlag": "🇺🇸",
+    "isVerified": false,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Dr. David Miller",
+    "age": 29,
+    "gender": "male",
+    "price": 4500,
+    "duration": 30,
+    "rating": 4.6,
+    "reviewsCount": 98,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=17",
+    "experience": 6,
+    "clients": 104,
+    "sessions": 310,
+    "countryFlag": "🇨🇦",
+    "isVerified": true,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Dr. Olivia Davis",
+    "age": 30,
+    "gender": "female",
+    "price": 5000,
     "duration": 30,
     "rating": 4.7,
-    "reviewsCount": 100,
-    "description": "Specialized in anxiety and depression treatment.",
-    "avatar": "https://i.pravatar.cc/150?img=9"
+    "reviewsCount": 101,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=18",
+    "experience": 7,
+    "clients": 108,
+    "sessions": 320,
+    "countryFlag": "🇬🇧",
+    "isVerified": true,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Dr. Daniel Garcia",
+    "age": 31,
+    "gender": "male",
+    "price": 300,
+    "duration": 60,
+    "rating": 4.8,
+    "reviewsCount": 104,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=19",
+    "experience": 8,
+    "clients": 112,
+    "sessions": 330,
+    "countryFlag": "🇦🇺",
+    "isVerified": false,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Dr. Sophia Martinez",
+    "age": 32,
+    "gender": "female",
+    "price": 400,
+    "duration": 30,
+    "rating": 4.9,
+    "reviewsCount": 107,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=20",
+    "experience": 9,
+    "clients": 116,
+    "sessions": 340,
+    "countryFlag": "🇩🇪",
+    "isVerified": true,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Dr. John Smith",
+    "age": 33,
+    "gender": "male",
+    "price": 500,
+    "duration": 30,
+    "rating": 4.5,
+    "reviewsCount": 110,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=21",
+    "experience": 10,
+    "clients": 120,
+    "sessions": 350,
+    "countryFlag": "🇺🇸",
+    "isVerified": true,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Dr. Jane Doe",
+    "age": 34,
+    "gender": "female",
+    "price": 600,
+    "duration": 60,
+    "rating": 4.6,
+    "reviewsCount": 113,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=22",
+    "experience": 11,
+    "clients": 124,
+    "sessions": 360,
+    "countryFlag": "🇨🇦",
+    "isVerified": false,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Dr. Alex Brown",
+    "age": 35,
+    "gender": "male",
+    "price": 700,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 116,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=23",
+    "experience": 12,
+    "clients": 128,
+    "sessions": 370,
+    "countryFlag": "🇬🇧",
+    "isVerified": true,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Dr. Emily Wilson",
+    "age": 36,
+    "gender": "female",
+    "price": 800,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 119,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=24",
+    "experience": 13,
+    "clients": 132,
+    "sessions": 380,
+    "countryFlag": "🇦🇺",
+    "isVerified": true,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Dr. Michael Lee",
+    "age": 37,
+    "gender": "male",
+    "price": 900,
+    "duration": 60,
+    "rating": 4.9,
+    "reviewsCount": 122,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=25",
+    "experience": 2,
+    "clients": 136,
+    "sessions": 390,
+    "countryFlag": "🇩🇪",
+    "isVerified": false,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Dr. Sarah Johnson",
+    "age": 38,
+    "gender": "female",
+    "price": 1000,
+    "duration": 30,
+    "rating": 4.5,
+    "reviewsCount": 125,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=26",
+    "experience": 3,
+    "clients": 140,
+    "sessions": 400,
+    "countryFlag": "🇺🇸",
+    "isVerified": true,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Dr. David Miller",
+    "age": 39,
+    "gender": "male",
+    "price": 1200,
+    "duration": 30,
+    "rating": 4.6,
+    "reviewsCount": 128,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=27",
+    "experience": 4,
+    "clients": 144,
+    "sessions": 410,
+    "countryFlag": "🇨🇦",
+    "isVerified": true,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Dr. Olivia Davis",
+    "age": 40,
+    "gender": "female",
+    "price": 1500,
+    "duration": 60,
+    "rating": 4.7,
+    "reviewsCount": 131,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=28",
+    "experience": 5,
+    "clients": 148,
+    "sessions": 420,
+    "countryFlag": "🇬🇧",
+    "isVerified": false,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Dr. Daniel Garcia",
+    "age": 41,
+    "gender": "male",
+    "price": 1800,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 134,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=29",
+    "experience": 6,
+    "clients": 152,
+    "sessions": 430,
+    "countryFlag": "🇦🇺",
+    "isVerified": true,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Dr. Sophia Martinez",
+    "age": 42,
+    "gender": "female",
+    "price": 2000,
+    "duration": 30,
+    "rating": 4.9,
+    "reviewsCount": 137,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=30",
+    "experience": 7,
+    "clients": 156,
+    "sessions": 440,
+    "countryFlag": "🇩🇪",
+    "isVerified": true,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Dr. John Smith",
+    "age": 28,
+    "gender": "male",
+    "price": 2500,
+    "duration": 60,
+    "rating": 4.5,
+    "reviewsCount": 140,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=31",
+    "experience": 8,
+    "clients": 160,
+    "sessions": 450,
+    "countryFlag": "🇺🇸",
+    "isVerified": false,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Dr. Jane Doe",
+    "age": 29,
+    "gender": "female",
+    "price": 3000,
+    "duration": 30,
+    "rating": 4.6,
+    "reviewsCount": 143,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=32",
+    "experience": 9,
+    "clients": 164,
+    "sessions": 460,
+    "countryFlag": "🇨🇦",
+    "isVerified": true,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Dr. Alex Brown",
+    "age": 30,
+    "gender": "male",
+    "price": 3500,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 146,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=33",
+    "experience": 10,
+    "clients": 168,
+    "sessions": 470,
+    "countryFlag": "🇬🇧",
+    "isVerified": true,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Dr. Emily Wilson",
+    "age": 31,
+    "gender": "female",
+    "price": 4000,
+    "duration": 60,
+    "rating": 4.8,
+    "reviewsCount": 149,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=34",
+    "experience": 11,
+    "clients": 172,
+    "sessions": 480,
+    "countryFlag": "🇦🇺",
+    "isVerified": false,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Dr. Michael Lee",
+    "age": 32,
+    "gender": "male",
+    "price": 4500,
+    "duration": 30,
+    "rating": 4.9,
+    "reviewsCount": 152,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=35",
+    "experience": 12,
+    "clients": 176,
+    "sessions": 490,
+    "countryFlag": "🇩🇪",
+    "isVerified": true,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Dr. Sarah Johnson",
+    "age": 33,
+    "gender": "female",
+    "price": 5000,
+    "duration": 30,
+    "rating": 4.5,
+    "reviewsCount": 155,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=36",
+    "experience": 13,
+    "clients": 180,
+    "sessions": 500,
+    "countryFlag": "🇺🇸",
+    "isVerified": true,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Dr. David Miller",
+    "age": 34,
+    "gender": "male",
+    "price": 300,
+    "duration": 60,
+    "rating": 4.6,
+    "reviewsCount": 158,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=37",
+    "experience": 2,
+    "clients": 184,
+    "sessions": 510,
+    "countryFlag": "🇨🇦",
+    "isVerified": false,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Dr. Olivia Davis",
+    "age": 35,
+    "gender": "female",
+    "price": 400,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 161,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=38",
+    "experience": 3,
+    "clients": 188,
+    "sessions": 520,
+    "countryFlag": "🇬🇧",
+    "isVerified": true,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Dr. Daniel Garcia",
+    "age": 36,
+    "gender": "male",
+    "price": 500,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 164,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=39",
+    "experience": 4,
+    "clients": 192,
+    "sessions": 530,
+    "countryFlag": "🇦🇺",
+    "isVerified": true,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Dr. Sophia Martinez",
+    "age": 37,
+    "gender": "female",
+    "price": 600,
+    "duration": 60,
+    "rating": 4.9,
+    "reviewsCount": 167,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=40",
+    "experience": 5,
+    "clients": 196,
+    "sessions": 540,
+    "countryFlag": "🇩🇪",
+    "isVerified": false,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Dr. John Smith",
+    "age": 38,
+    "gender": "male",
+    "price": 700,
+    "duration": 30,
+    "rating": 4.5,
+    "reviewsCount": 170,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=41",
+    "experience": 6,
+    "clients": 200,
+    "sessions": 550,
+    "countryFlag": "🇺🇸",
+    "isVerified": true,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Dr. Jane Doe",
+    "age": 39,
+    "gender": "female",
+    "price": 800,
+    "duration": 30,
+    "rating": 4.6,
+    "reviewsCount": 173,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=42",
+    "experience": 7,
+    "clients": 204,
+    "sessions": 560,
+    "countryFlag": "🇨🇦",
+    "isVerified": true,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Dr. Alex Brown",
+    "age": 40,
+    "gender": "male",
+    "price": 900,
+    "duration": 60,
+    "rating": 4.7,
+    "reviewsCount": 176,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=43",
+    "experience": 8,
+    "clients": 208,
+    "sessions": 570,
+    "countryFlag": "🇬🇧",
+    "isVerified": false,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Dr. Emily Wilson",
+    "age": 41,
+    "gender": "female",
+    "price": 1000,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 179,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=44",
+    "experience": 9,
+    "clients": 212,
+    "sessions": 580,
+    "countryFlag": "🇦🇺",
+    "isVerified": true,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Dr. Michael Lee",
+    "age": 42,
+    "gender": "male",
+    "price": 1200,
+    "duration": 30,
+    "rating": 4.9,
+    "reviewsCount": 182,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=45",
+    "experience": 10,
+    "clients": 216,
+    "sessions": 590,
+    "countryFlag": "🇩🇪",
+    "isVerified": true,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Dr. Sarah Johnson",
+    "age": 28,
+    "gender": "female",
+    "price": 1500,
+    "duration": 60,
+    "rating": 4.5,
+    "reviewsCount": 185,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=46",
+    "experience": 11,
+    "clients": 220,
+    "sessions": 600,
+    "countryFlag": "🇺🇸",
+    "isVerified": false,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Dr. David Miller",
+    "age": 29,
+    "gender": "male",
+    "price": 1800,
+    "duration": 30,
+    "rating": 4.6,
+    "reviewsCount": 188,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=47",
+    "experience": 12,
+    "clients": 224,
+    "sessions": 610,
+    "countryFlag": "🇨🇦",
+    "isVerified": true,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Dr. Olivia Davis",
+    "age": 30,
+    "gender": "female",
+    "price": 2000,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 191,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=48",
+    "experience": 13,
+    "clients": 228,
+    "sessions": 620,
+    "countryFlag": "🇬🇧",
+    "isVerified": true,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Dr. Daniel Garcia",
+    "age": 31,
+    "gender": "male",
+    "price": 2500,
+    "duration": 60,
+    "rating": 4.8,
+    "reviewsCount": 194,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=49",
+    "experience": 2,
+    "clients": 232,
+    "sessions": 630,
+    "countryFlag": "🇦🇺",
+    "isVerified": false,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Dr. Sophia Martinez",
+    "age": 32,
+    "gender": "female",
+    "price": 3000,
+    "duration": 30,
+    "rating": 4.9,
+    "reviewsCount": 197,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=50",
+    "experience": 3,
+    "clients": 236,
+    "sessions": 640,
+    "countryFlag": "🇩🇪",
+    "isVerified": true,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Dr. John Smith",
+    "age": 33,
+    "gender": "male",
+    "price": 3500,
+    "duration": 30,
+    "rating": 4.5,
+    "reviewsCount": 200,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=51",
+    "experience": 4,
+    "clients": 240,
+    "sessions": 650,
+    "countryFlag": "🇺🇸",
+    "isVerified": true,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Dr. Jane Doe",
+    "age": 34,
+    "gender": "female",
+    "price": 4000,
+    "duration": 60,
+    "rating": 4.6,
+    "reviewsCount": 203,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=52",
+    "experience": 5,
+    "clients": 244,
+    "sessions": 660,
+    "countryFlag": "🇨🇦",
+    "isVerified": false,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Dr. Alex Brown",
+    "age": 35,
+    "gender": "male",
+    "price": 4500,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 206,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=53",
+    "experience": 6,
+    "clients": 248,
+    "sessions": 670,
+    "countryFlag": "🇬🇧",
+    "isVerified": true,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Dr. Emily Wilson",
+    "age": 36,
+    "gender": "female",
+    "price": 5000,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 209,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=54",
+    "experience": 7,
+    "clients": 252,
+    "sessions": 680,
+    "countryFlag": "🇦🇺",
+    "isVerified": true,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Dr. Michael Lee",
+    "age": 37,
+    "gender": "male",
+    "price": 300,
+    "duration": 60,
+    "rating": 4.9,
+    "reviewsCount": 212,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=55",
+    "experience": 8,
+    "clients": 256,
+    "sessions": 690,
+    "countryFlag": "🇩🇪",
+    "isVerified": false,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Dr. Sarah Johnson",
+    "age": 38,
+    "gender": "female",
+    "price": 400,
+    "duration": 30,
+    "rating": 4.5,
+    "reviewsCount": 215,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=56",
+    "experience": 9,
+    "clients": 260,
+    "sessions": 700,
+    "countryFlag": "🇺🇸",
+    "isVerified": true,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Dr. David Miller",
+    "age": 39,
+    "gender": "male",
+    "price": 500,
+    "duration": 30,
+    "rating": 4.6,
+    "reviewsCount": 218,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=57",
+    "experience": 10,
+    "clients": 264,
+    "sessions": 710,
+    "countryFlag": "🇨🇦",
+    "isVerified": true,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Dr. Olivia Davis",
+    "age": 40,
+    "gender": "female",
+    "price": 600,
+    "duration": 60,
+    "rating": 4.7,
+    "reviewsCount": 221,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=58",
+    "experience": 11,
+    "clients": 268,
+    "sessions": 720,
+    "countryFlag": "🇬🇧",
+    "isVerified": false,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Dr. Daniel Garcia",
+    "age": 41,
+    "gender": "male",
+    "price": 700,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 224,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=59",
+    "experience": 12,
+    "clients": 272,
+    "sessions": 730,
+    "countryFlag": "🇦🇺",
+    "isVerified": true,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Dr. Sophia Martinez",
+    "age": 42,
+    "gender": "female",
+    "price": 800,
+    "duration": 30,
+    "rating": 4.9,
+    "reviewsCount": 227,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=60",
+    "experience": 13,
+    "clients": 276,
+    "sessions": 740,
+    "countryFlag": "🇩🇪",
+    "isVerified": true,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Dr. John Smith",
+    "age": 28,
+    "gender": "male",
+    "price": 900,
+    "duration": 60,
+    "rating": 4.5,
+    "reviewsCount": 230,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=61",
+    "experience": 2,
+    "clients": 280,
+    "sessions": 750,
+    "countryFlag": "🇺🇸",
+    "isVerified": false,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Dr. Jane Doe",
+    "age": 29,
+    "gender": "female",
+    "price": 1000,
+    "duration": 30,
+    "rating": 4.6,
+    "reviewsCount": 233,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=62",
+    "experience": 3,
+    "clients": 284,
+    "sessions": 760,
+    "countryFlag": "🇨🇦",
+    "isVerified": true,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Dr. Alex Brown",
+    "age": 30,
+    "gender": "male",
+    "price": 1200,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 236,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=63",
+    "experience": 4,
+    "clients": 288,
+    "sessions": 770,
+    "countryFlag": "🇬🇧",
+    "isVerified": true,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Dr. Emily Wilson",
+    "age": 31,
+    "gender": "female",
+    "price": 1500,
+    "duration": 60,
+    "rating": 4.8,
+    "reviewsCount": 239,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=64",
+    "experience": 5,
+    "clients": 292,
+    "sessions": 780,
+    "countryFlag": "🇦🇺",
+    "isVerified": false,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Dr. Michael Lee",
+    "age": 32,
+    "gender": "male",
+    "price": 1800,
+    "duration": 30,
+    "rating": 4.9,
+    "reviewsCount": 242,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=65",
+    "experience": 6,
+    "clients": 296,
+    "sessions": 790,
+    "countryFlag": "🇩🇪",
+    "isVerified": true,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Dr. Sarah Johnson",
+    "age": 33,
+    "gender": "female",
+    "price": 2000,
+    "duration": 30,
+    "rating": 4.5,
+    "reviewsCount": 245,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=66",
+    "experience": 7,
+    "clients": 300,
+    "sessions": 800,
+    "countryFlag": "🇺🇸",
+    "isVerified": true,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Dr. David Miller",
+    "age": 34,
+    "gender": "male",
+    "price": 2500,
+    "duration": 60,
+    "rating": 4.6,
+    "reviewsCount": 248,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=67",
+    "experience": 8,
+    "clients": 304,
+    "sessions": 810,
+    "countryFlag": "🇨🇦",
+    "isVerified": false,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Dr. Olivia Davis",
+    "age": 35,
+    "gender": "female",
+    "price": 3000,
+    "duration": 30,
+    "rating": 4.7,
+    "reviewsCount": 251,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=68",
+    "experience": 9,
+    "clients": 308,
+    "sessions": 820,
+    "countryFlag": "🇬🇧",
+    "isVerified": true,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Dr. Daniel Garcia",
+    "age": 36,
+    "gender": "male",
+    "price": 3500,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 254,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=69",
+    "experience": 10,
+    "clients": 312,
+    "sessions": 830,
+    "countryFlag": "🇦🇺",
+    "isVerified": true,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Dr. Sophia Martinez",
+    "age": 37,
+    "gender": "female",
+    "price": 4000,
+    "duration": 60,
+    "rating": 4.9,
+    "reviewsCount": 257,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=70",
+    "experience": 11,
+    "clients": 316,
+    "sessions": 840,
+    "countryFlag": "🇩🇪",
+    "isVerified": false,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Dr. John Smith",
+    "age": 38,
+    "gender": "male",
+    "price": 4500,
+    "duration": 30,
+    "rating": 4.5,
+    "reviewsCount": 260,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=1",
+    "experience": 12,
+    "clients": 320,
+    "sessions": 850,
+    "countryFlag": "🇺🇸",
+    "isVerified": true,
+    "badge": "Super Specialist",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Dr. Jane Doe",
+    "age": 39,
+    "gender": "female",
+    "price": 5000,
+    "duration": 30,
+    "rating": 4.6,
+    "reviewsCount": 263,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=2",
+    "experience": 13,
+    "clients": 324,
+    "sessions": 860,
+    "countryFlag": "🇨🇦",
+    "isVerified": true,
+    "badge": "Top Rated",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Dr. Alex Brown",
+    "age": 40,
+    "gender": "male",
+    "price": 300,
+    "duration": 60,
+    "rating": 4.7,
+    "reviewsCount": 266,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=3",
+    "experience": 2,
+    "clients": 328,
+    "sessions": 870,
+    "countryFlag": "🇬🇧",
+    "isVerified": false,
+    "badge": "Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Dr. Emily Wilson",
+    "age": 41,
+    "gender": "female",
+    "price": 400,
+    "duration": 30,
+    "rating": 4.8,
+    "reviewsCount": 269,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=4",
+    "experience": 3,
+    "clients": 332,
+    "sessions": 880,
+    "countryFlag": "🇦🇺",
+    "isVerified": true,
+    "badge": "Family Expert",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Dr. Michael Lee",
+    "age": 42,
+    "gender": "male",
+    "price": 500,
+    "duration": 30,
+    "rating": 4.9,
+    "reviewsCount": 272,
+    "description": "Certified therapist specializing in mental health and wellbeing.",
+    "avatar": "https://i.pravatar.cc/150?img=5",
+    "experience": 4,
+    "clients": 336,
+    "sessions": 890,
+    "countryFlag": "🇩🇪",
+    "isVerified": true,
+    "badge": "New",
+    "availableSlots": [
+      {
+        "label": "Today, 10:00 AM",
+        "date": "2026-01-10T13:22:00.478227Z"
+      },
+      {
+        "label": "Tomorrow, 3:00 PM",
+        "date": "2026-01-11T16:22:00.478227Z"
+      }
+    ]
   }
 ]
