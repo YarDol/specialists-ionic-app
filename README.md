@@ -37,7 +37,7 @@ npx cap open ios
 
 ### Swagger
 
-Swagger: `http://localhost:3001`
+Swagger: `http://localhost:3001/api`
 
 ```bash
 login: developer
