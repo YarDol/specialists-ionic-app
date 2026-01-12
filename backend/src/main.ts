@@ -43,10 +43,32 @@ async function bootstrap() {
 
   app.getHttpServer().setTimeout(5 * 60 * 1000);
 
+  const allowedOrigins = [
+    'http://localhost:5173',
+    'capacitor://localhost',
+    'ionic://localhost',
+  ].filter(Boolean);
+
   app.enableCors({
-    origin: true,
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    origin: (origin, callback) => {
+      if (origin) {
+        console.log('CORS request from origin:', origin);
+      }
+      if (!origin) {
+        return callback(null, true);
+      }
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+      if (origin.startsWith('capacitor://') || origin.startsWith('ionic://')) {
+        return callback(null, true);
+      }
+
+      callback(new Error('Not allowed by CORS'));
+    },
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,
+    allowedHeaders: ['Content-Type', 'Authorization'],
   });
 
   const swaggerBuilderCtor = DocumentBuilder as {

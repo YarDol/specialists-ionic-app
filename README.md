@@ -34,12 +34,3 @@ npm run build
 npx cap sync ios
 npx cap open ios
 ```
-
-### Swagger
-
-Swagger: `http://localhost:3001`
-
-```bash
-login: developer
-password: 12345
-```
